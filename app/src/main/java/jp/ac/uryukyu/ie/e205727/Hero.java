@@ -52,30 +52,62 @@ public class Hero {
         }
     }
 
+    /**
+     * フィールド変数nameの値を返すgetterメソッド。
+     * @return フィールド変数nameの値
+     */
     public String getName(){
         return name;
     }
+    /**
+     * フィールド変数nameを参照するsetterメソッド。
+     * @param name Heroの名前
+     */
     public void setName(String name){
         this.name = name;
     }
 
+    /**
+     * フィールド変数hitPointの値を返すgetterメソッド。
+     * @return フィールド変数hitPointの値
+     */
     public int getHitPoint(){
         return hitPoint;
     }
+    /**
+     * フィールド変数hitPointを参照するsetterメソッド。
+     * @param hitPoint Heroの名前
+     */
     public void setHitpoint(int hitPoint){
         this.hitPoint = hitPoint;
     }
 
+    /**
+     * フィールド変数attackの値を返すgetterメソッド。
+     * @return フィールド変数attackの値
+     */
     public int getAttack(){
         return attack;
     }
+    /**
+     * フィールド変数attackを参照するsetterメソッド。
+     * @param attack Heroの攻撃力
+     */
     public void setAttack(int attack){
         this.attack = attack;
     }
 
+    /**
+     * フィールド変数deadの値を返すgetterメソッド。
+     * @return フィールド変数deadの値
+     */
     public boolean getDead(){
         return dead;
     }
+    /**
+     * フィールド変数deadを参照するsetterメソッド。
+     * @param dead Heroの死亡
+     */
     public void setDead(boolean dead){
         this.dead = dead;
     }
