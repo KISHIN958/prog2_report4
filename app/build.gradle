@@ -31,7 +31,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = 'ex.gradle2.App'
+    mainClassName = 'Main'
 }
 
 tasks.named('test') {
