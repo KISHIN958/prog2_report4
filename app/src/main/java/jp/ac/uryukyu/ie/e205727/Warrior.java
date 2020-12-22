@@ -1,7 +1,7 @@
 package jp.ac.uryukyu.ie.e205727;
 
 /**
- * ヒーロークラス。
+ * ウォーリアクラス。
  *  String name; //敵の名前
  *  int hitPoint; //敵のHP
  *  int attack; //敵の攻撃力
@@ -11,9 +11,9 @@ package jp.ac.uryukyu.ie.e205727;
 public class Warrior extends Hero {
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
-     * @param name ヒーロー名
-     * @param maximumHP ヒーローのHP
-     * @param attack ヒーローの攻撃力
+     * @param name ウォーリア名
+     * @param maximumHP ウォーリアのHP
+     * @param attack ウォーリアの攻撃力
      */
     public Warrior (String name, int maximumHP, int attack) {
         super(name, maximumHP, attack);
