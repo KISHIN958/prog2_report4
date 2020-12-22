@@ -8,9 +8,9 @@ public class LivingThing {
 
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
-     * @param name ヒーロー名
-     * @param maximumHP ヒーローのHP
-     * @param attack ヒーローの攻撃力
+     * @param name LivingThing名
+     * @param maximumHP LivingThingのHP
+     * @param attack LivingThingの攻撃力
      */
     public LivingThing (String name, int maximumHP, int attack) {
         this.name = name;
