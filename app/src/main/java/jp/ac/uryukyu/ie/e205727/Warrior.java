@@ -19,6 +19,10 @@ public class Warrior extends Hero {
         super(name, maximumHP, attack);
     }
 
+    /**
+     * Heroの攻撃力の1.5倍の固定ダメージを与えるメソッド。
+     * @param opponent Enemy
+     */
     public void attackWithWeponSkill(LivingThing opponent){
         if (isDead()){
             return;
